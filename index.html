@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="form">
+            <fieldset>
+                <legend>Calculadora Simples</legend>
+                <div class="input-form">
+                    <label for="valor"><strong>Valor:</strong></label>
+                    <input type="Number" class="num" id="num1" placeholder="Insira um número">
+
+                </div>
+                <div class="radio-form-container">
+                    <label for=""><strong>Escolha a operação:</strong></label>
+                    <div id="radio-form-ajust">
+                        <div class="radio-form">
+                            <input type="radio" name="cal" id="adi" checked>
+                            <label for="adi">Adição</label>
+                        </div>
+
+                        <div class="radio-form">
+                            <input type="radio" name="cal" id="sub">
+                            <label for="sub">Subtração</label>
+                        </div>
+                        <div class="radio-form">
+                            <input type="radio" name="cal" id="mul">
+                            <label for="mul">Multiplicação</label>
+                        </div>
+                        <div class="radio-form">
+                            <input type="radio" name="cal" id="div">
+                            <label for="div">Divisão</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-form">
+                    <label for="valor"><strong>Valor:</strong></label>
+                    <input type="Number" class="num" id="num2" placeholder="Insira um número">
+                </div>
+                <button id="btn" onclick="calcular()">Calcular</button>
+            </fieldset>
+            <div id="res">
+                Resultado
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

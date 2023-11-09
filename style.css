@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #a9a9a9;
+    font-size: 1.6rem;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+body *{
+    font-family: 'Poppins', serif;
+}
+
+.form{
+    background-color: white;
+    width: min(78rem, 87%);
+
+    margin: auto;
+
+    padding: 4.0rem;
+    border-radius: 3.2rem;
+}
+fieldset{
+    border: 0;
+    
+    
+}
+
+fieldset legend {
+    font-family:'Libre Baskerville', serif;
+    
+}
+legend{
+    font-size: 2.8rem;
+    
+    
+}
+
+footer{
+    margin-top: 5.0rem;
+    text-align: center;
+}
+
+legend + .input-form{
+    margin-top: 4.0rem;
+}
+
+.input-form + .radio-form-container{
+    margin-top: 2rem;
+}
+.radio-form-container #radio-form-ajust{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.radio-form-container  .radio-form{
+    margin-top: 1rem;
+    padding-left:1.2rem ;
+}
+
+.radio-form-container + .input-form{
+    margin-top: 2rem;
+}
+#btn{
+    margin-top: 4.0rem;
+    width: 100%;
+    background-color: #8058DD;
+    border: 0;
+    height: 4.0rem;
+    color: white;
+    font-size: 1.6rem;
+}
+
+#btn:hover{
+    background-color: white;
+    border: solid #8058DD;
+    color: #8058DD;
+}
+#res{
+    margin-top: 4.0rem;
+}
+
+.num{
+    margin-top: 0.5rem;
+    height: 4.0rem;
+    width: 100%;
+    padding-left: 1.0rem;
+}
+#res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
